@@ -1,0 +1,69 @@
+.listData{
+	padding: 5px;
+	-webkit-box-shadow: 2px 1px 5px 0px rgba(199,195,199,1);
+	-moz-box-shadow: 2px 1px 5px 0px rgba(199,195,199,1);
+	box-shadow: 2px 1px 5px 0px rgba(199,195,199,1);
+	margin-bottom:10px;
+	
+}
+.row{
+	margin-left:0px !important;
+	margin-right:0px !important;
+}
+.modal{
+	
+    padding-top: 140px;
+	
+}
+.fade{
+	opacity:1;
+}
+.moreButton{
+	margin-top:15px;
+}
+.imageMore{
+	width: 20px;
+    height: 20px;
+	}
+.fullImg{
+    margin-bottom: 20px;
+}
+.nav > li {
+    padding-left: 15px;
+}
+#dataContent{
+	margin-top:75px;
+}
+img[src$=".svg"],a{
+cursor:pointer;
+
+}
+img#barIcon {
+    width: 50px;
+    height: 30px;
+    position: fixed;
+    top: 5px;
+    right: 1px;
+	display: none;
+}
+@media screen and (max-width: 600px) {
+  .navAnchor li a {display: none !important;}
+  #barIcon {
+    
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navAnchor.responsive {position: relative;}
+  .navAnchor.responsive #baricon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navAnchor.responsive a {
+    float: none;
+    display: block !important;
+    text-align: left;
+  }
+}
