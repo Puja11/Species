@@ -21,7 +21,7 @@ constructor(props){
 	  <nav className="navbar navbar-inverse navbar-fixed-top">
 		 
 			<div className="navbar-header">
-			  <a className="navbar-brand" href="#">KnoeledgeClass</a>
+			  <a className="navbar-brand" href="#">KnowledgeClass</a>
 			</div>
 			<ul className={this.state.classNameNow} >
 			  <li ><NavLink to="/Animals" >{this.props.Link1}</NavLink></li>
