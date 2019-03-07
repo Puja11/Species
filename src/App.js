@@ -15,6 +15,7 @@ class App extends Component {
 	 <Root/>
 	 <Switch>
 		<Route path="/" component={Animals} exact/>
+		<Route path="/species" component={Animals} exact/>
 		<Route path="/FruitVeg" component={FruitVeg}/>
 		<Route path="/Animals" component={Animals}/>
 		{/*routes written for any junk route*/}
